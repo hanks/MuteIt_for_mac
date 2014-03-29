@@ -29,10 +29,10 @@
     BOOL isMute = false;
     
     if (dataSourceId == 'ispk') {
-        NSLog(@"no headphone");
+        // no headphone
         isMute = true;
     } else if (dataSourceId == 'hdpn') {
-        NSLog(@"use headphone");
+        // use headphone
         isMute = false;
     }
     
@@ -109,15 +109,15 @@
 }
 
 - (IBAction)runOnStartup:(id)sender {
-    
+    [sender setState:![sender state]];
 }
 
 - (void)awakeFromNib {
+    // add status icon to system menu bar
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     [statusItem setMenu:_statusMenu];
-    NSImage *icon = [NSImage imageNamed:@"icon.png"];
+    NSImage *icon = [NSImage imageNamed:@"icon_16x16.png"];
     [statusItem setImage:icon];
-    NSLog(@"size %f %f",icon.size.width, icon.size.height);
     [statusItem setToolTip:@"MuteIt!"];
     [statusItem setHighlightMode:YES];
 }

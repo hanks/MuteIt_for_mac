@@ -104,4 +104,13 @@
     
 }
 
+
+- (void)awakeFromNib {
+    statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    [statusItem setMenu:_statusMenu];
+    [statusItem setTitle:@"MuteIt!"];
+    [statusItem setToolTip:@"MuteIt!"];
+    [statusItem setHighlightMode:YES];
+}
+
 @end

@@ -108,7 +108,10 @@
 - (void)awakeFromNib {
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     [statusItem setMenu:_statusMenu];
-    [statusItem setTitle:@"MuteIt!"];
+//    [statusItem setTitle:@"MuteIt!"];
+    NSImage *icon = [NSImage imageNamed:@"icon.png"];
+    [statusItem setImage:icon];
+    NSLog(@"size %f %f",icon.size.width, icon.size.height);
     [statusItem setToolTip:@"MuteIt!"];
     [statusItem setHighlightMode:YES];
 }

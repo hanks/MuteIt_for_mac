@@ -104,11 +104,17 @@
     
 }
 
+- (IBAction)quit:(id)sender {
+    [[NSApplication sharedApplication] terminate:nil];
+}
+
+- (IBAction)runOnStartup:(id)sender {
+    
+}
 
 - (void)awakeFromNib {
     statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     [statusItem setMenu:_statusMenu];
-//    [statusItem setTitle:@"MuteIt!"];
     NSImage *icon = [NSImage imageNamed:@"icon.png"];
     [statusItem setImage:icon];
     NSLog(@"size %f %f",icon.size.width, icon.size.height);

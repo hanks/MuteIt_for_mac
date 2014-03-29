@@ -22,9 +22,15 @@
             <items>
                 <menuItem title="Run on startup" id="4D9-HK-eGF">
                     <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="runOnStartup:" target="Voe-Tx-rLC" id="XEM-qO-4sJ"/>
+                    </connections>
                 </menuItem>
                 <menuItem title="Quit" id="Lax-wB-76Q">
                     <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quit:" target="Voe-Tx-rLC" id="Fv5-R5-3fx"/>
+                    </connections>
                 </menuItem>
             </items>
         </menu>

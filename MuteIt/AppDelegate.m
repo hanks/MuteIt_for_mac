@@ -42,10 +42,13 @@
 
 - (void)muteSystemVolumnWithFlag:(BOOL)isMute {
     if (isMute) {
-        NSLog(@"do mute");
-        Float32 volume = 0.0f;
-        [self changeVolumn:LEFT_CHANNEL volumn:volume];
-        [self changeVolumn:RIGHT_CHANNEL volumn:volume];
+//        NSLog(@"do mute");
+//        Float32 volume = 0.0f;
+//        [self changeVolumn:LEFT_CHANNEL volumn:volume];
+//        [self changeVolumn:RIGHT_CHANNEL volumn:volume];
+        system("osascript -e \"set volume output muted 1\"");
+    } else {
+        system("osascript -e \"set volume output muted 0\"");
     }
     
 }

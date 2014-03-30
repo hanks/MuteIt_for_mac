@@ -35,7 +35,7 @@ https://raw.githubusercontent.com/hanks/MuteIt_for_mac/master/MuteIt/demo/system
 [run_on_startup]: 
 https://raw.githubusercontent.com/hanks/MuteIt_for_mac/master/MuteIt/demo/run_on_startup.jpg "run_on_startup"
 
-**MuteIt** is just a status bar app, just a icon in the system menu bar. 
+**MuteIt** is just a status bar app, just a icon in the system menu bar. **When it runs, it works.**
 
 Like below:  
 ![alt text][status_bar]  

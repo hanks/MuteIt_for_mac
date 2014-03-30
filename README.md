@@ -55,6 +55,11 @@ And if you check **Run on startup** option, it will be added to the login item l
     <ol>
       It means the app has no window, no menu and just a icon in the system menu bar. Many app work like this. Like Alfred, popclip and etc. If your app function is very simple and a few menus can meet your needs. Status bar applcation is a good style you can try.
     </ol>
+  </li>
+  <li>Installer package    
+    <ol>
+      It is my first time to package a mac app manually, just follow tutorial <a href="http://mac101.net/content/how-to/how-to-create-dmg-art-for-fancy-application-installations/">here</a>. It is fun.
+    </ol>
   </li>                
 </ol>
 

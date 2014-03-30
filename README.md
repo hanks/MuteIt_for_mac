@@ -66,7 +66,7 @@ And if you check **Run on startup** option, it will be added to the login item l
 
 
 ## Bugs
-1. when you first run MuteIt with no headphone, the sound will be muted.  
+1. <del>when you first run MuteIt with no headphone, the sound will be muted.</del>  
 2. when you unplug headphone, there will be a very short time that sound will still be playing and then be muted.
 
 ## Contribution

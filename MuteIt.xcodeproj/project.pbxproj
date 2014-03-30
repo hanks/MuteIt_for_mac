@@ -24,8 +24,8 @@
 		004E3C5018E7D04900CB7D0A /* run_on_startup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004E3C4E18E7D04900CB7D0A /* run_on_startup.jpg */; };
 		004E3C5118E7D04900CB7D0A /* system_menu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004E3C4F18E7D04900CB7D0A /* system_menu.jpg */; };
 		004E3C5318E7D4EF00CB7D0A /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 004E3C5218E7D4EF00CB7D0A /* demo.gif */; };
-		004E3C5618E7F12B00CB7D0A /* MuteIt.dmg in Resources */ = {isa = PBXBuildFile; fileRef = 004E3C5518E7F12B00CB7D0A /* MuteIt.dmg */; };
 		004E3C5818E7F17600CB7D0A /* installer.png in Resources */ = {isa = PBXBuildFile; fileRef = 004E3C5718E7F17600CB7D0A /* installer.png */; };
+		004E3C5A18E800F800CB7D0A /* MuteIt_Installer.dmg in Resources */ = {isa = PBXBuildFile; fileRef = 004E3C5918E800F800CB7D0A /* MuteIt_Installer.dmg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +64,8 @@
 		004E3C4E18E7D04900CB7D0A /* run_on_startup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = run_on_startup.jpg; sourceTree = "<group>"; };
 		004E3C4F18E7D04900CB7D0A /* system_menu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = system_menu.jpg; sourceTree = "<group>"; };
 		004E3C5218E7D4EF00CB7D0A /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
-		004E3C5518E7F12B00CB7D0A /* MuteIt.dmg */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuteIt.dmg; sourceTree = "<group>"; };
 		004E3C5718E7F17600CB7D0A /* installer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = installer.png; sourceTree = "<group>"; };
+		004E3C5918E800F800CB7D0A /* MuteIt_Installer.dmg */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuteIt_Installer.dmg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,7 +197,7 @@
 		004E3C5418E7F12B00CB7D0A /* Installer */ = {
 			isa = PBXGroup;
 			children = (
-				004E3C5518E7F12B00CB7D0A /* MuteIt.dmg */,
+				004E3C5918E800F800CB7D0A /* MuteIt_Installer.dmg */,
 			);
 			path = Installer;
 			sourceTree = "<group>";
@@ -285,11 +285,11 @@
 				004E3C5118E7D04900CB7D0A /* system_menu.jpg in Resources */,
 				004E3C4A18E73C9F00CB7D0A /* icon_128x128.png in Resources */,
 				004E3C5818E7F17600CB7D0A /* installer.png in Resources */,
-				004E3C5618E7F12B00CB7D0A /* MuteIt.dmg in Resources */,
 				004E3C2118E5CD9800CB7D0A /* Credits.rtf in Resources */,
 				004E3C5318E7D4EF00CB7D0A /* demo.gif in Resources */,
 				004E3C4818E7322900CB7D0A /* icon_32x32.png in Resources */,
 				004E3C2718E5CD9900CB7D0A /* MainMenu.xib in Resources */,
+				004E3C5A18E800F800CB7D0A /* MuteIt_Installer.dmg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

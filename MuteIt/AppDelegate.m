@@ -12,6 +12,7 @@
 @interface AppDelegate ()
 {
     AudioDeviceID defaultDeviceID;
+    BOOL isUseHeadphoneAlready;
 }
 @end
 
@@ -30,9 +31,12 @@
     
     if (dataSourceId == 'ispk') {
         // no headphone
-        isMute = true;
+        if (isUseHeadphoneAlready) {
+            isMute = true;
+        }
     } else if (dataSourceId == 'hdpn') {
         // use headphone
+        isUseHeadphoneAlready = true;
         isMute = false;
     }
     
@@ -75,6 +79,9 @@
 {
     // fetch volumn data
      UInt32 volumedataSize = sizeof(AudioDeviceID);
+    
+    // set first run flag
+    isUseHeadphoneAlready = false;
     
     // get default output device
     const AudioObjectPropertyAddress defaultAddr =

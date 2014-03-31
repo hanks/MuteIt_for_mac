@@ -20,7 +20,7 @@ It just does two things:
 https://raw.githubusercontent.com/hanks/MuteIt_for_mac/master/MuteIt/demo/demo.gif "demo"
 
 ## Install
-Download app from <a href="https://github.com/hanks/MuteIt_for_mac/blob/master/MuteIt/Installer/MuteIt_Installer.dmg">here</a>, and install like other mac apps.
+Download app from <a href="https://raw2.github.com/hanks/MuteIt_for_mac/master/MuteIt/Installer/MuteIt_Installer.dmg">here</a>, and install like other mac apps.
 
 The installer UI will be like this(**please ignore the self-made slogan^_^**):    
 ![alt text][installer]  
